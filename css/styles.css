@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar .navbar-brand {
+    color:white;
+}
+.navbar-light.bg-light {
+    background-color: rgb(53, 58, 64) !important;
+  }
+
+.navbar-nav .nav-item .nav-link{
+    color: rgb(140, 153, 159);
+}
+
+.navbar-nav .nav-link:hover, .navbar .navbar-brand:hover, .navbar-nav .nav-link.active  {
+    color: rgb(41, 166, 70) !important;
+}
+
+/* <========== carousel ==========>  */
+
+.carousel-item  {
+    height: 100vh;
+    min-height: 300px;
+}
+
+.carousel-item div {
+    bottom: 160px;
+    right: 128px;
+    
+}
+
+
+.carousel-caption {
+    bottom: 220px;
+    z-index: 2;
+}
+
+.carousel-caption h5 {
+    font-size:40px;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.carousel-caption p{
+   
+   width: 60%;
+   margin-left:auto;
+   margin-right: 0;
+   font-size: 18px;
+   line-height: 1.9; 
+   text-align: right;
+}
+.carousel-inner::before {
+    content:'';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    background: rgba(0,0,0,0.7);
+    z-index: 1;
+}
+
+.h-carousel {
+    height: 700px;
+}
+
+.bg-graynav {
+    background-color: #353a40;
+}
+
+
+footer {
+    background-color: #1d3a4a;
+    margin-top: 1rem;
+}
+
+footer .bg-cr {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+  
