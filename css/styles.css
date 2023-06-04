@@ -82,5 +82,8 @@ footer .bg-cr {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
+.container.fluid.d-flex.justify-content-center {
+    margin-top: 100px; /* Ajusta el valor según sea necesario */
+  }
 
   
